@@ -10,7 +10,7 @@ while (8 != passcode.length) {
 
   val asHex = testHash.map("%02X" format _).mkString
   if (asHex.startsWith("00000")) {
-    println(passcode, testHashBase, asHex)
+    passcode += asHex.charAt(5)
   }
 
   index += 1
