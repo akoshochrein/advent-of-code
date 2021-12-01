@@ -4,3 +4,5 @@ day-5.txt
 .idea
 *.iml
 2016/2016.iml
+2021/node_modules
+.DS_STORE
