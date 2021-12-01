@@ -1,0 +1,14 @@
+{
+    "name": "2021",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "run1": "ts-node src/1/index.ts"
+    },
+    "dependencies": {
+        "@types/node": "^16.11.11",
+        "ts-node": "^10.4.0",
+        "typescript": "^4.5.2"
+    }
+}
