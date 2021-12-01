@@ -1,6 +1,8 @@
 import { readFileSync } from "fs";
 
-const content = readFileSync("./src/1/input.txt", "utf-8");
+const content = readFileSync("./src/1/input.txt", "utf-8")
+    .split("\n")
+    .map((c) => +c);
 // const content = [199, 200, 208, 210, 200, 207, 240, 269, 260, 263];
 
 const INCREASE = "increase";
@@ -19,26 +21,26 @@ const reduceByElevationChange = (
     array: number[]
 ) => {
     if (index === 0 || index === 1) return acc;
+    const windowSum = curr + array[index - 1] + array[index - 2];
     const value: Elevation =
-        content[index - 1] === undefined
+        acc[index - 1 - 2] === undefined
             ? FLAT
-            : curr - array[index - 1] === 0
+            : windowSum - acc[index - 1 - 2].elevation === 0
             ? FLAT
-            : curr - array[index - 1] > 0
+            : windowSum - acc[index - 1 - 2].elevation > 0
             ? INCREASE
             : DECREASE;
     return [
         ...acc,
         {
-            elevation: curr,
+            layer: index - 2,
+            elevation: windowSum,
             difference: value,
         },
     ];
 };
 
 const result = content
-    .split("\n")
-    .map((c) => +c)
     .reduce(reduceByElevationChange, [])
     .filter((c) => c.difference === INCREASE).length;
 // .map((c) => console.log(c));
