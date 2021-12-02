@@ -5,7 +5,8 @@
     "license": "MIT",
     "scripts": {
         "run1": "ts-node src/1/index.ts",
-        "run12": "ts-node src/1/index-p2.ts"
+        "run12": "ts-node src/1/index-p2.ts",
+        "run2": "ts-node src/2/index.ts"
     },
     "dependencies": {
         "@types/node": "^16.11.11",
