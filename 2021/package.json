@@ -13,7 +13,8 @@
         "run4": "ts-node src/4/index.ts",
         "run42": "ts-node src/4/index-p2.ts",
         "run5": "ts-node src/5/index.ts",
-        "run52": "ts-node src/5/index-p2.ts"
+        "run52": "ts-node src/5/index-p2.ts",
+        "run6": "ts-node src/6/index.ts"
     },
     "dependencies": {
         "@types/node": "^16.11.11",
