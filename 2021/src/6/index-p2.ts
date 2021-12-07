@@ -32,7 +32,7 @@ for (let i = 0; i < ITERATIONS; ++i) {
             subsequentBreeders: GENERATIONS[j + 1].subsequentBreeders,
         };
     }
-    // Before the last generation shift we correct the
+    // Before the last generation shift we correct
     GENERATIONS[6].subsequentBreeders =
         temp.firstBreeders + temp.subsequentBreeders;
     GENERATIONS[8].firstBreeders = temp.subsequentBreeders + temp.firstBreeders;
