@@ -6,6 +6,7 @@
     "scripts": {
         "run1": "ts-node src/1/index.ts",
         "run12": "ts-node src/1/index-p2.ts",
+        "run1_1": "ts-node src/1_1/index.ts",
         "run2": "ts-node src/2/index.ts",
         "run22": "ts-node src/2/index-p2.ts",
         "run3": "ts-node src/3/index.ts",
@@ -19,7 +20,9 @@
         "run7": "ts-node src/7/index.ts",
         "run72": "ts-node src/7/index-p2.ts",
         "run8": "ts-node src/8/index.ts",
-        "run82": "ts-node src/8/index-p2.ts"
+        "run82": "ts-node src/8/index-p2.ts",
+        "run9": "ts-node -i src/9/index.ts",
+        "run92": "ts-node src/9/index-p2.ts"
     },
     "dependencies": {
         "@types/node": "^16.11.11",
