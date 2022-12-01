@@ -5,4 +5,5 @@ day-5.txt
 *.iml
 2016/2016.iml
 2021/node_modules
+2022/node_modules
 .DS_STORE
