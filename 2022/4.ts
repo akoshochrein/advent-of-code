@@ -5,7 +5,7 @@ const input = `2-4,6-8
 6-6,4-6
 2-6,4-8`;
 
-type Range = { start: Number; end: Number };
+type Range = { start: number; end: number };
 
 type Schedule = {
     first: Range;
