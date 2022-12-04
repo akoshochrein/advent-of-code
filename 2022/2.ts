@@ -52,3 +52,5 @@ const score = input
     }, 0);
 
 console.log(score);
+
+export {};

@@ -92,3 +92,5 @@ const result = input
     .reduce((score, current) => score + current, 0);
 
 console.log(result);
+
+export {};
