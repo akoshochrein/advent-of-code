@@ -84,3 +84,5 @@ const result = input
     );
 
 console.log(result.locations.size);
+
+export {};
