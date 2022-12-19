@@ -134,3 +134,5 @@ const smallestDirectoryToDelete = flattenNodes(ROOT, [])
     .at(0);
 
 console.log(smallestDirectoryToDelete?.size);
+
+export {};
