@@ -17,6 +17,7 @@
         "run6": "ts-node 6.ts",
         "run7": "ts-node 7.ts",
         "run8": "ts-node 8.ts",
-        "run9": "ts-node 9.ts"
+        "run9": "ts-node 9.ts",
+        "run10": "ts-node 10.ts"
     }
 }
