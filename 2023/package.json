@@ -9,6 +9,7 @@
         "typescript": "^5.3.2"
     },
     "scripts": {
-        "run11": "ts-node 1/partOne.ts"
+        "run11": "ts-node 1/partOne.ts",
+        "run12": "ts-node 1/partTwo.ts"
     }
 }
